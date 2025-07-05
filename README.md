@@ -19,6 +19,17 @@ This tool is particularly useful for quickly grasping the general sentiment arou
 
 * **Clear Output**: Presents findings in an easy-to-read format, specifically highlighting the **top 3 positive and top 3 negative aspects**.
 
+## Setup:
+
+Before running the project, you need to set up your API key:
+
+1.  Create a file named `.env` in the root directory of the project.
+2.  Open the `.env` file and add your AvalAI (or OpenAI) API key in the following format:
+    ```
+    API_KEY="your_api_key_here"
+    ```
+    Replace `"your_api_key_here"` with your actual API key.
+
 ## How it Works:
 
 1. **Data Loading**: Reads customer review data from a JSON file.
