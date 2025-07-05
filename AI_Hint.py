@@ -1,6 +1,3 @@
-import tkinter as tk
-from tkinter import ttk, PhotoImage, messagebox
-import base64
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
